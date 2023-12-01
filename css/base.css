@@ -1,0 +1,45 @@
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+:where(button, input:is([type="button" i], [type="reset" i], [type="submit" i])) {
+  -webkit-appearance: button;
+}
+
+input {
+  margin: 0;
+}
+
+button {
+  margin: 0;
+  font: inherit;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-transform: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
